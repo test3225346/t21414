@@ -442,19 +442,9 @@
           "address_data": "0x1507"
         },
         {
-          "name": "extention_board_adc1_0_4_20mA",
-          "type": "input_float",
-          "address_data": "0x1508"
-        },
-        {
           "name": "extention_board_adc1_1_4_20mA",
           "type": "input_float",
           "address_data": "0x1509"
-        },
-        {
-          "name": "extention_board_adc2_0_4_20mA",
-          "type": "input_float",
-          "address_data": "0x150A"
         },
         {
           "name": "extention_board_adc2_1_4_20mA",
@@ -522,6 +512,16 @@
           "name": "mesure_read_curr3",
           "type": "input_float",
           "address_data": "0x0FA3"
+        },
+        {
+          "name": "extention_board_adc1_0_4_20mA",
+          "type": "input_float",
+          "address_data": "0x0FA6"
+        },
+        {
+          "name": "extention_board_adc2_0_4_20mA",
+          "type": "input_float",
+          "address_data": "0x0FA9"
         }
       ]
     }
@@ -3079,7 +3079,7 @@
       "fr_FR": "Lecture mesure 4-20 1",
       "en_US": "ADC1 read",
       "type": "input_float",
-      "extension_name": "io_card_1",
+      "extension_name": "measure_card_2",
       "organ_name": "extention_board_adc1_0_4_20mA",
       "value": 0,
       "unit": "m_A",
@@ -3191,7 +3191,7 @@
       "fr_FR": "Lecture mesure 4-20 3",
       "en_US": "ADC3 read",
       "type": "input_float",
-      "extension_name": "io_card_1",
+      "extension_name": "measure_card_2",
       "organ_name": "extention_board_adc2_0_4_20mA",
       "value": 0,
       "unit": "m_A",
@@ -4196,7 +4196,7 @@
       "fr_FR": "Lecture 1 4-20mA",
       "en_US": "ADC1 read",
       "type": "input_float",
-      "extension_name": "io_card_1",
+      "extension_name": "measure_card_2",
       "organ_name": "extention_board_adc1_0_4_20mA",
       "value": 0,
       "unit": "",
@@ -4207,7 +4207,7 @@
       "fr_FR": "Lecture 2 4-20mA",
       "en_US": "ADC2 read",
       "type": "input_float",
-      "extension_name": "io_card_1",
+      "extension_name": "measure_card_2",
       "organ_name": "extention_board_adc2_0_4_20mA",
       "value": 0,
       "unit": "",
